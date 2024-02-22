@@ -1,1 +1,1 @@
-# random-gifs
+this random-gir-generator createst the random gif memes and these are accessed by fetching the api. There is used concept is creating Hook by user side concept . The hook is used here to reduce the complexity of code and increasing the readabilty of it. it is a basic level project that made to clear the concept of user Hook creation and also fetching Api concepts
