@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+.background {
+  background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px), radial-gradient(#ffffff 2.5px, transparent 2.5px);
+  background-size: 36px 36px;
+  background-position: 0 0, 18px 18px;
+  background-color: #b1d2ff;
+}
+
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+.spinner {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background: repeating-conic-gradient(#766DF4 0 90deg,#E4E4ED 0 180deg);
+   animation: s1 0.5s infinite linear;
+ }
+ 
+ @keyframes s1 {
+   100% {transform: rotate(.5turn)}
+ }
