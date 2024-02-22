@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios';
+
 import { Spinner } from './Spinner';
 import useGif from '../hooks/useGif';
 
-const API_KEY=process.env.REACT_APP_GIPHY_API_KEY;
+
 export const Random = () => {
 // const [gif,setGif]=useState('');
 
@@ -28,7 +27,7 @@ const {gif,loading,fetchData}=useGif();
     <div className='flex flex-col items-center w-1/2 h-auto bg-green-500 rounded-lg border border-black gap-5 mt-[5px]  mb-[5px] p-[15px]'>
         <h1 className='text-3xl underline uppercase font-bold pt-[15px]'>A Random Gif</h1>
         {
-            loading ? (<Spinner/>) : (<img src={gif} className='w-2/3 h-2/3' />)
+            loading ? (<Spinner/>) : (<img src={gif} alt="Im"className='w-2/3 h-2/3' />)
         }
         
          <button onClick={clickHandler} className='w-10/12 bg-yellow-500 text-lg py-2 rounded-lg '>
